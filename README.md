@@ -1,2 +1,2 @@
 # Calculator
-JavaScript Calculator using OOP
+JavaScript Calculator using OOP Concepts
