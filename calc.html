@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="calcstyle.css" rel="stylesheet">
+    <script src="Scriptcalc.js" defer></script>
+    <!-- defer. This Boolean attribute is set to indicate to a browser that the script is meant 
+    to be executed after the document has been parsed, but before firing DOMContentLoaded . 
+    Scripts with the defer attribute will prevent the DOMContentLoaded event from 
+    firing until the script has loaded and finished evaluating -->
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator-grid">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        <!-- data-insertname is an attribute-->
+        <button data-all-clear class="span-two">AC</button>
+        <button data-delete >DEL</button>
+        <button data-operation>÷</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>*</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number class="border-bottom-left">.</button>
+        <button data-number>0</button>
+        <button data-equals class="span-two border-bottom-right">=</button>
+    </div>
+    
+</body>
+</html>
